@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF - 8">
+    <!-- This title will appear in the tab-->
+    <title>The Blog</title>
+</head>
+<body>
+
+  <!--Creating the header-->
+  <header id ="PageHeader">
+    <!--It can also be <img scr = resources/food> (the resources is that you
+    create a new folder in the file)-->
+    <img src ="blog-logo.jpg" id="SiteLogo"/>
+    <h1 id="SiteTitle">The Blog</h1>
+  </header>
+
+  <!-- Adding navigation -->
+  <nav id="SiteNavigation">
+    <ul>
+      <li><a href= "#">Home</a></li>
+      <li><a href= "#">About</a></li>
+      <li><a href= "#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!--Page Content-->
+  <!-- Section tag with id attribute -->
+  <section id="PageContent">
+    <!-- article tag in this section, again with class attribute-->
+    <article class="BlogPost">
+      <!-- header for this article -->
+      <header>
+        <!-- h1 for the article title -->
+        <h1> class="BlogPostTitle">This is a blog Post Title</h1>
+        <!-- a time tag for the publish date -->
+        <time class="BlogPostDate" pubdate="pubdate">2012-02-10</time>
+      </header>
+      <!-- A div for the content-->
+      <div class="BlogPostContent">
+        <!--A paragraph <p> tag containing the content -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+           Quo modo autem optimum, si bonum praeterea nullum est? Quod autem satis
+           est, eo quicquid accessit, nimium est; Ut aliquid scire
+           se gaudeant? Si quae forte-possumus.</p>
+         </div>
+       </article>
+     </section>
+
+     <!-- footer tag with an unique id attribute -->
+     <footer id="PageFooter">
+       <!-- a link </a> as the footer content -->
+       <a href="#">Legal Stuff</a>
+     </footer>
+  </body>
+</html>
