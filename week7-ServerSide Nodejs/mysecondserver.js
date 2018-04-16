@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-
-//This tells node to use our new module
-//and then our myDateTime function
-=======
->>>>>>> be3d48b5d303a5fd4acc574d93aa97443466de95
 var http = require('http');
 var currentdate = require('./mymodule');
 http.createServer(function (req, res) {
