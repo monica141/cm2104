@@ -7,8 +7,8 @@
     "countries-list": "^2.3.2",
     "ejs": "^2.5.8",
     "express": "^4.16.3",
-    "expres-session":"^1.15.6",
-    "mongodb": "^2.2.33"
+    "express-session": "^1.15.6",
+    "mongodb": "^2.2.35"
   },
   "devDependencies": {},
   "scripts": {

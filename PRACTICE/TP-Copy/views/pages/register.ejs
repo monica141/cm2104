@@ -31,9 +31,9 @@
                <img src="resources/img/login.jpeg" alt="login">
             </div>
             <div class="container">
-               <form>
+               <form method="POST" action="/adduser">
                   <div class="loginTitle">
-                     <h1>Register</h1>
+                     <h1>Register</h1> 
                   </div>
                   <div class="loginSection">
                      <p>Email</p>
@@ -45,8 +45,9 @@
                   </div>
                   <div class="loginSection">
                      <p>Password</p>
-                     <input class="form-input" type="text" name="password">
-                     <a href="profile.html"><button type="button" name="login">Register</button></a>
+                     <input class="form-input" type="text`" name="password">
+                      <!--this button submits the form to the server-->
+                     <button type="submit" name="login">Register</button></a>
                   </div>
                </form>
             </div>

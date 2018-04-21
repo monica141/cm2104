@@ -1,0 +1,388 @@
+* {
+   font-family: 'Open Sans Condensed', sans-serif;
+   margin: 0;
+}
+
+/* < H E A D E R > */
+
+.banner {
+   position: relative;
+   text-align: center;
+}
+
+.banner .title {
+   position: absolute;
+   color: white;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.banner .title h1 {
+   font-family: 'Lobster', cursive, 'Open Sans Condensed', condensed;
+   font-size: 6vw;
+}
+
+.banner .background img {
+   display: block;
+}
+
+.banner .bar {
+   /* Flexbox */
+   display: -webkit-flex;
+   display: flex;
+   justify-content: space-between;
+   align-content: stretch;
+
+   /* Text over image */
+   position: absolute;
+   background-color: rgba(0, 0, 0, 0);
+   top: 0;
+
+   /* Bar */
+   width: 100%;
+   padding: 0 245px 0 150px;
+}
+
+.banner .bar .links{
+   /* Flexbox */
+   display: -webkit-flex;
+   display: flex;
+
+   /* Links */
+   list-style: none;
+   margin: 0;
+}
+
+.banner .bar .links li{
+   align-self: center;
+   padding: 10px;
+}
+
+.banner .bar .links li a{
+   color: white;
+}
+
+header a img{
+   width: 75px;
+   height: auto;
+   display: block;
+}
+
+/* < / H E A D E R > */
+
+/* < F O O T E R > */
+
+footer {
+   /* Flexbox */
+   display: -webkit-flex;
+   display: flex;
+   justify-content: space-around;
+
+   /* Footer */
+   background-color: #1F2E35 ;
+   color: #F2F3F4;
+   padding: 50px 150px;
+}
+
+footer h1, h2, p, a, ul, li {
+   margin-bottom: 10px;
+}
+
+footer .column {
+    width: 50%;
+    text-align: center;
+    align-self: center;
+}
+
+footer .column a {
+   color: #F2F3F4;
+}
+
+footer .column a img {
+    width: 50px;
+    height: auto;
+    padding: 10px;
+}
+
+footer .column li {
+    list-style-type: none;
+}
+
+/* < / F O O T E R > */
+
+.textBlock {
+   display: -webkit-flex;
+   display: flex;
+   padding: 50px 0;
+}
+
+.text{
+   align-self: center;
+   padding: 30px 50px;
+   max-width:60%;
+   align-items: stretch;
+}
+
+.text p {
+   text-align: justify;
+}
+
+.image{
+   text-align: center;
+   align-self: center;
+   max-width:200%;
+   align-items: stretch;
+}
+
+.image img{
+   max-width: 400px;
+   height: auto;
+   text-align: center;
+   display: block;
+   margin: 0;
+}
+
+main{
+   padding: 50px 150px;
+   background-color: ##F2F3F4;
+   color: #1F2E35;
+}
+
+section{
+   margin: 0;
+   padding: 0;
+}
+
+
+/*-----INFO------^*/
+
+
+
+
+.infoTitle{
+   position: absolute;
+   color: white;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.infoTitle h1{
+   font-size: 5vw;
+}
+
+
+.infoMain{
+   padding: 150px;
+   color: black;
+   background-color: white ;
+}
+
+.infoMain p{
+   text-align: justify;
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-size: 20px;
+}
+
+*{
+   margin: 0;
+}
+/*
+*About page navigation bar
+*/
+/*
+#upperBar{
+   padding: 10px;
+   display: -webkit-flex;
+   display: flex;
+   justify-content: space-between;
+   background-color: black;
+   position: absolute;
+   top: 8px;
+   left: 16px;
+}
+
+#about{
+   position: absolute;
+   top: 8px;
+   right: 16px;
+}
+
+#upperBar ul {
+   display: -webkit-flex;
+   display: flex;
+   justify-content: space-between;
+}
+
+#upperBar li{
+   list-style-type: none;
+   padding: 10px;
+}
+
+.peopleImage{
+   width: 100%;
+   height: auto;
+}
+*/
+
+*{
+   font-family: 'Open Sans Condensed', sans-serif;
+}
+/*
+ * Homepage navigation bar
+ */
+nav{
+   /* Setting the bar colur */
+   padding: 10px;
+}
+nav ul{
+   list-style: none;
+   margin: 0;
+   display: -webkit-flex;
+   display: flex;
+   flex-direction: row;
+   /*
+   position: fixed;
+   top: 0;
+   width: 100%;
+   background: black;
+   */
+}
+nav ul li{
+   padding: 0 10px;
+   align-self: center;
+}
+nav ul li a{
+   color: white;
+}
+
+#upperBar {
+   display: -webkit-flex;
+   display: flex;
+   justify-content: space-around;
+   background-color: rgba(0, 0, 0, 0);
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+/*
+ * Login bar
+ */
+#loginBar{
+   padding: 10px;
+   list-style: none;
+   margin: 0;
+   display: -webkit-flex;
+   display: flex;
+   flex-direction: row-reverse;
+}
+#loginBar li{
+   padding: 10px;
+   align-self: center;
+}
+#loginBar li a{
+   color: white;
+}
+
+#logoBanner {
+   position: relative;
+   text-align: center;
+}
+#logoBanner img {
+   display: block;
+}
+#logoBanner h1 {
+    position: absolute;
+    text-transform: capitalize;
+    font-size: 80px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.infoTitle{
+   position: absolute;
+   color: white;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.infoTitle h1{
+   font-size: 5vw;
+}
+
+main{
+   padding: 80px;
+   color: #black;
+   background-color: white ;
+
+.infoMain{
+   padding: 150px;
+   color: black;
+   background-color: white ;
+
+
+.infoMain p{
+   text-align: justify;
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-size: 20px;
+}
+
+
+footer{
+    /* Footer background colour */
+    background-color: #202020 ;
+    /* Footer text colour */
+    color: #F2F3F4;
+    padding: 25px;
+}
+
+footer .frontText a img{
+    width: 50px;
+    height: auto;
+    padding: 10px;
+}
+
+footer .frontText a{
+   color: #F2F3F4;
+}
+
+.frontSection{
+    display: -webkit-flex;
+    display: flex;
+}
+.frontText{
+    padding: 50px;
+    width: 50%;
+    text-align: center;
+    align-self: center;
+}
+
+.frontText li {
+    list-style-type: none;
+}
+
+.wrapper li{
+width: 50px;
+height: auto;
+}
+/*
+testing
+*/
+/**
+- - - - - - - LOGIN SECTION - - - - - - -- - -
+
+html{
+   background: url(img/login.jpeg);
+}
+header {
+   background-color: #0C0301
+}
+body{
+   background-color:#F5B7B1 ;
+}
+*/
